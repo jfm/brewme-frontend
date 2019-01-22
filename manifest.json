@@ -1,0 +1,6 @@
+{
+  "name": "brewme-frontend",
+  "short_name": "brewme-frontend",
+  "start_url": "/",
+  "display": "standalone"
+}
