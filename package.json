@@ -1,6 +1,7 @@
 {
   "name": "brewme-frontend",
   "dependencies": {
+    "@polymer/paper-tabs": "^3.0.1",
     "@polymer/polymer": "^3.0.0"
   },
   "devDependencies": {

@@ -1,5 +1,6 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
-
+import '@polymer/paper-tabs/paper-tabs.js'
+import '@polymer/paper-tabs/paper-tab.js'
 /**
  * @customElement
  * @polymer
@@ -12,7 +13,10 @@ class BrewmeFrontendApp extends PolymerElement {
           display: block;
         }
       </style>
-      <h2>Hello [[prop1]]!</h2>
+      <paper-tabs selected="0" scrollable>
+        <paper-tab>Dashboard</paper-tab>
+        <paper-tab>Recipes</paper-tab>
+      </paper-tabs>
     `;
   }
   static get properties() {
